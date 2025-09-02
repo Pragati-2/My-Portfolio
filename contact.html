@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Contact Page</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+                <li><a href="certificates.html">Certificates</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <p>You can reach me at :</p> 
+        <p>Ph : 8617798736<br>
+        Email : pragatid2791@gmail.com</p>
+
+        <p>Or use the form below to send me a message:</p>
+        <form id="contact-form">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+            
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+            
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+            
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+</body>
+</html>
